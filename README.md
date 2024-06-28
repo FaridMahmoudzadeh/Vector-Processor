@@ -28,3 +28,6 @@ This project implements a custom 512-bit vector processor using Verilog. The pro
 ## Implementation Details
 The full implementation details are discussed thoroughly in the *Project Report.pdf* file located in the *Document* directoery
 
+## How to Simulate
+To simulate the project first we need to compile our VerilogHDL files and then simulate the TESTBENCH module using ModelSim.
+Here's a link that can teach you how to simulate modules in ModelSim. [https://ursache.io/posts/uefi-hello-world-2023/](https://nandland.com/introduction-to-modelsim-for-beginners/)
