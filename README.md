@@ -5,13 +5,13 @@
 This project implements a custom 512-bit vector processor using Verilog. The processor consists of three main components: a register file, an ALU (Arithmetic Logic Unit), and a memory module; and it supports 4 general instructions.
 
 ## Parts Overview
-Register File:
+1. Register File:
 - Stores four 512-bit vectors (A1, A2, A3, and A4).
 - Provides read and write ports for vector manipulation.
-ALU:
+2. ALU:
 - Performs addition and multiplication operations.
 - Inputs: A1 and A2; Outputs: A3 (low value) and A4 (high value).
-Memory:
+3. Memory:
 - 512x32 memory with load and store instructions.
 - Supports loading from memory into registers and vice versa.
 
