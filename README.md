@@ -32,3 +32,15 @@ The full implementation details are discussed thoroughly in the *Project Report.
 To simulate the project first we need to compile our VerilogHDL files and then simulate the TESTBENCH module using ModelSim.
 
 [Here](https://nandland.com/introduction-to-modelsim-for-beginners/)'s a link that can teach you how to simulate modules in ModelSim.
+
+## Results
+After simulating the module and running all the commands here's the output you're gonna encounter in the transcript:
+![image](https://github.com/FaridMahmoudzadeh/Vector-Processor/assets/119705391/5a88a682-380f-410c-848d-03c7c0f36829)
+You can change the instructions in the TESTBENCH module to test the project for different values.
+
+## Related Links
+- ![ModelSim](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
+
+## Author
+- [Farid Mahmoudzadeh](https://github.com/FaridMahmoudzadeh)
+
