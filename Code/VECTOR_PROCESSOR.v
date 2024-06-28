@@ -17,7 +17,7 @@ module VECTOR_PROCESSOR (
 
     reg [511:0] data_in;
     reg [8:0] mem_address;
-    reg data_w_enable;
+    reg mem_w_enable;
     wire [511:0] data_out;
     
     integer i;
@@ -37,7 +37,7 @@ module VECTOR_PROCESSOR (
     MEMORY mem (clk, reset, 
                     data_in, 
                     mem_address, 
-                    data_w_enable, 
+                    mem_w_enable, 
                     data_out
         );
 
@@ -52,7 +52,7 @@ module VECTOR_PROCESSOR (
             rf_w_enable_1 <= ~instruct[11];
             rf_w_enable_2 <= 0;
             mem_address <= instruct[8:0];
-            data_w_enable <= instruct[11];
+            mem_w_enable <= instruct[11];
             if(instruct[11]) begin
                 r_reg <= instruct[10:9];
                 #1
@@ -66,7 +66,7 @@ module VECTOR_PROCESSOR (
         end
         else begin
             operation = instruct[11];
-            data_w_enable <= 0;
+            mem_w_enable <= 0;
             rf_w_enable_1 <= 1;
             rf_w_enable_2 <= 1;
             w_reg_1 <= 2'b10;
