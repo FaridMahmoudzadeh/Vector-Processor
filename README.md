@@ -39,7 +39,7 @@ After simulating the module and running all the commands here's the output you'r
 You can change the instructions in the TESTBENCH module to test the project for different values.
 
 ## Related Links
-- ![ModelSim](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
+- [ModelSim](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
 
 ## Author
 - [Farid Mahmoudzadeh](https://github.com/FaridMahmoudzadeh)
